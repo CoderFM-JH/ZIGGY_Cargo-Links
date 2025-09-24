@@ -1,0 +1,88 @@
+frontend
+
+Your environment has been set up for using Node.js 20.19.4 (x64) and npm.
+
+C:\Windows\System32>cd C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links
+
+C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links>npx nuxi@latest init FrontEnd
+
+        .d$b.
+       i$$A$$L  .d$b
+     .$$F` `$$L.$$A$$.
+    j$$'    `4$$:` `$$.
+   j$$'     .4$:    `$$.
+  j$$`     .$$:      `4$L
+ :$$:____.d$$:  _____.:$$:
+ `4$$$$$$$$P` .i$$$$$$$$P`
+
+i Welcome to Nuxt!                                                                                       nuxi 11:14:49
+i Creating a new project in FrontEnd.                                                                    nuxi 11:14:49
+undefined
+√ Which package manager would you like to use?
+undefined npm
+o Installing dependencies...                                                                             nuxi 11:14:58
+
+> postinstall
+> nuxt prepare
+
+√ Types generated in .nuxt                                                                               nuxi 11:20:12
+
+added 695 packages, and audited 697 packages in 5m
+
+139 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+√ Installation completed.                                                                                nuxi 11:20:12
+undefined
+√ Initialize git repository?
+undefined No
+undefined
+√ Would you like to install any of the official modules?
+undefined No
+                                                                                                         nuxi 11:45:38
+✨ Nuxt project has been created with the v4 template. Next steps:
+ › cd FrontEnd                                                                                           nuxi 11:45:38
+ › Start development server with npm run dev                                                             nuxi 11:45:38
+npm notice
+npm notice New minor version of npm available! 11.4.2 -> 11.6.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.0
+npm notice To update run: npm install -g npm@11.6.0
+npm notice
+
+C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links>cd FrontEnd
+
+C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links\FrontEnd>npm install -D @nuxtjs/tailwindcss
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 227 packages, and audited 824 packages in 1m
+
+159 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links\FrontEnd>npm install daisyui
+
+added 1 package in 1m
+
+160 packages are looking for funding
+  run `npm fund` for details
+
+C:\xampp\Xampp\htdocs\ZIGGY_Cargo-Links\FrontEnd>npm run dev
+
+> dev
+> nuxt dev
+
+Nuxt 4.1.2 with Nitro 2.12.6                                                                             nuxi 12:11:55
+[get-port] Unable to find an available port (tried 3000 on host "localhost"). Using alternative port 3001.    12:11:56
+                                                                                                              12:11:56
+  ➜ Local:    http://localhost:3001/
+  ➜ Network:  use --host to expose
+
+i Using default Tailwind CSS file                                                            nuxt:tailwindcss 12:12:20
+  ➜ DevTools: press Shift + Alt + D in the browser (v2.6.5)                                                   12:12:26
+
+
+
