@@ -17,4 +17,6 @@
 
 <!-- 
 npm install nuxt-charts
+npm install vue-whatsapp-widget
+
 -->
