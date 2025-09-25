@@ -12,3 +12,9 @@
     </NuxtLayout>
   </div>
 </template>
+
+
+
+<!-- 
+npm install nuxt-charts
+-->

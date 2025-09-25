@@ -1,0 +1,121 @@
+Your environment has been set up for using Node.js 20.19.4 (x64) and npm.
+
+C:\Windows\System32>cd C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>echo "# ZIGGY_Cargo-Links" >> README.md
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git init
+Initialized empty Git repository in C:/Users/JAZON/Desktop/SiteGestionFret02/ZIGGY_Cargo-Links/.git/
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git commit -m "first commit"
+[master (root-commit) ae7119c] first commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 README.md
+ create mode 100644 icone.jpg
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git branch -M main
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git remote add origin https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 59.67 KiB | 8.52 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git commit -m "initialisation"
+[main fe3ee8e] initialisation
+ 1 file changed, 17 insertions(+)
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 515 bytes | 128.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git
+   ae7119c..fe3ee8e  main -> main
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git add .
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git commit -m "initialisation"
+[main ae08694] initialisation
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Back-End/backend.txt
+ create mode 100644 Front-End/frontend.txt
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git push
+fatal: unable to access 'https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git/': Could not resolve host: github.com
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>ping github.com
+La requête Ping n’a pas pu trouver l’hôte github.com. Vérifiez le nom et essayez à nouveau.
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git remote -v
+origin  https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git (fetch)
+origin  https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git (push)
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>origin  https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git (push)
+'origin' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git remote origin  https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git
+error: unknown subcommand: `origin'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --[no-]verbose    be verbose; must be placed before a subcommand
+
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 472 bytes | 94.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CoderFM-JH/ZIGGY_Cargo-Links.git
+   fe3ee8e..ae08694  main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\JAZON\Desktop\SiteGestionFret02\ZIGGY_Cargo-Links>
+
+
+
+
+
+
+
+
+# 1. Ajouter tous les fichiers modifiés
+git add .
+
+# 2. Faire le commit avec un message
+git commit -m "debut de developpement de la solution"
+
+# 3. Envoyer vers le dépôt distant (si configuré)
+git push origin main
+
+

@@ -11,5 +11,6 @@ const { locales, setLocale } = useI18n()
       {{ locale.language }}
     </button>
     <h1>{{ $t('Bienvenue') }}</h1>
+    index
   </div>
 </template>
